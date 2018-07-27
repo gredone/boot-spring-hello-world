@@ -37,6 +37,21 @@
 		<defaultGoal>clean package</defaultGoal>
 		<directory>${basedir}/target</directory>
 		<finalName>${artifactId}-${version}</finalName>
+		<plugins>
+			<plugin>
+				<!-- Build an executable JAR -->
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<version>2.4</version>
+				<configuration>
+					<archive>
+						<manifest>
+							<mainClass>controller.ApplicationContext</mainClass>
+						</manifest>
+					</archive>
+				</configuration>
+			</plugin>
+		</plugins>
 	</build>
 
   
