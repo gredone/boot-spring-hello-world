@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: boot-spring-hello-world
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: id095999
+Implementation-Vendor-Id: redo.be
+Build-Jdk: 1.8.0_171
+Implementation-URL: http://projects.spring.io/spring-boot/boot-spring-
+ hello-world/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
