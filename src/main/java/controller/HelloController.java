@@ -9,7 +9,7 @@ public class HelloController {
 	
 	@RequestMapping("/")
 	public String sayHi() {
-		return "Hello there!";
+		return "Hello there! welcome to openshift :)";
 	}
 
 }
